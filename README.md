@@ -1,0 +1,2 @@
+# JXCsystem
+基于vue+springboot前后端分离框架的进销存系统，包含redis的缓存以及分布式锁的应用
