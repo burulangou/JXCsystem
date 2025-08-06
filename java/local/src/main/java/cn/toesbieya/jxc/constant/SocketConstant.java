@@ -4,6 +4,7 @@ public interface SocketConstant {
     //web-socket服务端订阅的redis主题名称
     String REDIS_EVENT_TOPIC_SEND = "socket-event-send";
 
+
     //指定用户
     int REDIS_EVENT_SPECIFIC = 0;
     //广播
@@ -18,6 +19,8 @@ public interface SocketConstant {
 
     //登出事件
     String EVENT_LOGOUT = "logout";
+    //登录事件
+    String EVENT_LOGIN = "login";
     //新消息事件
     String EVENT_NEW_MESSAGE = "new-message";
 }
